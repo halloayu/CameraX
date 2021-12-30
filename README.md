@@ -21,10 +21,10 @@ cameraProviderFuture.addListener(() -> {
     }
 }, ContextCompat.getMainExecutor(mContext));
 ```
-> 2、配置预览
-> 3、配置拍摄参数
-> 4、配置图片分析器
-> 5、将这些配置绑定到相机的生命周期
+> 2、配置预览 <br />
+> 3、配置拍摄参数 <br />
+> 4、配置图片分析器 <br />
+> 5、将这些配置绑定到相机的生命周期 <br />
 
 ```java
 private void bindCameraUseCases() {
